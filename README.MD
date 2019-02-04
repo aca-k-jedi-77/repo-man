@@ -1,0 +1,8 @@
+<h1>
+    primer readme fajla
+</h1>
+
+Ovako se pisu promenljive
+`var x = {name: 'Ucha'}`
+
+***wow***
