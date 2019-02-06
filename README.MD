@@ -8,3 +8,5 @@ Ovako se pisu promenljive
 ***wow***
 
 ***neka promena***
+
+dakle add, commit, push?
