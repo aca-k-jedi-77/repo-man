@@ -1,0 +1,97 @@
+﻿https://git-scm.com/  za instalaciju gita
+
+provera verzije:  git --version
+
+-------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****
+
+
+git --version
+git init     - inicijalizacija Git repozitorija, stvara se .git
+git config --local user.name "email"  (bez jednako)
+
+u gitbash:  cd  cd .. (povratak na viši, sa praznim mestom)  mkdir  (pravi dir)
+git clone https//github.com/jasofalcon/matrix.git   (ovim je skinuto u odg. dir, konkretno d/probacl
+
+cd matrix/    (d/probacl/matrix)
+git status
+
+dir     (detaljnije ls -l)
+
+git log   (spisak promena)
+
+git add .     - dodaje sve fajlove u trackovanje
+
+
+cd ..
+rm -rf matrix  (obrisano)
+cd ..
+rm -rf probacl
+
+u vsc:
+git status  (nema commita, ima nepraćeni readme.md, sa git add .  se dodaju svi fajlovi za praćenje - changes to be commited)
+
+git log    -- još nema commita
+
+git commit -m "initial commit"   - ... 1 file changed, 8 insertions ... itd.
+git log   -- sada će ispisati, prethodno definisani, commit
+
+
+
+Either specify the URL from the command-line or configure a remote repository using:
+git remote add origin https://github.com/aca-k-jedi-77/repo-man.git
+
+and then push using the remote name:
+git push -u origin master               (sa git push je izbacio poruku greške)
+
+prethodne dve vrednosti su prekopirane sa https://github.com/aca-k-jedi-77/repo-man
+
+(traži ponovno logovanje)
+
+git push        - Everything up-to-date
+
+***
+novi commitovi (sve git ispred):
+
+status                      - obavestiće nas o promenama i ponuditi akcije
+add <naziv fajla>           - 
+commit -m "neki naziv"
+push -u origin master       - već zna koji je remote add origin https...
+
+tj. njegov primer sa folderom
+
+git log (posle commit)      - koji commitovi postoje  gornji (Head -> master)
+git push                    - samo tako
+git log                     - gornji sada ima (Head -> master, origin/master) , origin master je ranije bio u donjem
+
+
+---
+git reset HEAD
+---
+
+https://learngitbranching.js.org/
+
+
+
+
+
+
+
+
+
