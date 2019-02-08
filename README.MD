@@ -9,6 +9,8 @@ Ovako se pisu promenljive
 
 ***neka promena***
 
-dakle add, commit, push?
+dakle add, commit, push...
 
 <h2>Dodat još jedan folder</h2>
+
+<p> ali treba napraviti još promena </p>
