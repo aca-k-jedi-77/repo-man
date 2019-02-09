@@ -80,6 +80,10 @@ git log (posle commit)      - koji commitovi postoje  gornji (Head -> master)
 git push                    - samo tako
 git log                     - gornji sada ima (Head -> master, origin/master) , origin master je ranije bio u donjem
 
+add
+commit
+push
+
 
 ---
 git reset HEAD
